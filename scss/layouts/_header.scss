@@ -1,0 +1,206 @@
+.fly-header {
+  background-color:#fff;
+  padding: 15px 0;
+  &__language {
+    padding: 5px 10px;
+    cursor: pointer;
+    display: none;
+    @include breakpoint(md){
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__right{
+    @include breakpoint(max-sm) {
+      display: none;
+    }
+    @include breakpoint(md){
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__search {
+    position: relative;
+    @include breakpoint(max-sm) {
+      display: none;
+    }
+    @include breakpoint(md){
+      margin-left: 10px;
+    }
+    input {
+      border-radius: 15px;
+      background-color: transparent;
+      border: 1px solid #ddd;
+      color: $text-color;
+      font-size: 12px;
+      width: 130px;
+      padding: 4px 30px 4px 25px;
+      &:focus {
+        outline:none;
+      }
+    }
+    i{
+      font-size: 12px;
+      position: absolute;
+      top:50%;
+      transform: translateY(-50%);
+      color: $text-color;
+      cursor: pointer;
+    }
+    .fa-search {
+      left: 10px;
+    }
+    .fa-times-circle {
+      right: 10px;
+      font-size: 15px;
+    }
+  }
+  .navbar{
+    width: 100%;
+    padding: 0;
+    @include breakpoint(sm){
+      justify-content: space-between;
+    }
+  }
+  .navbar-brand {
+    margin:0;
+    padding: 0;
+    img{
+      width: 150px;
+      @include breakpoint(sm){
+        width: 170px;
+      }
+      @include breakpoint(md){
+        width: 200px;
+      }
+    }
+  }
+  .navbar-toggler {
+    border: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+    background: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  .navbar-collapse {
+    @include breakpoint(xs) {
+      order: 4;
+      border-top: 1px solid #ddd;
+      margin: 0 -15px;
+      padding: 0 10px;
+    }
+    @include breakpoint(sm) {
+      padding-left: 15px;
+    }
+  }
+  .navbar-nav{
+    width: 100%;
+    @include breakpoint(sm){
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .nav-item {
+      @include breakpoint(sm){
+        padding: 0 5px;
+        position: relative;
+      }
+      &:hover{
+        @include breakpoint(sm){
+          .navbar-sub{
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
+      &.active {
+        .nav-link{
+          @include breakpoint(sm){
+            background-color: $main-color;
+            color: #fff;
+          }
+        }
+      }
+      .nav-link {
+        font-size: 14px;
+        font-weight: $semibold;
+        padding: 10px;
+        color: $main-color;
+        transition: .2s;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        text-transform: uppercase;
+        @include breakpoint(sm){
+          border-radius:0;
+          border-bottom: none;
+          padding:10px;
+        }
+        &:hover {
+          @include breakpoint(sm){
+            color: $white-1;
+            background-color:$main-color;
+          }
+        }
+      }
+    }
+  }
+  .navbar-sub{
+    background-color:#1087b4;
+    @include breakpoint(xs){
+      display: none;
+    }
+    @include breakpoint(sm){
+      position: absolute;
+      top: calc(100% + 15px);
+      left: -490px;
+      width: 700px;
+      display: flex;
+      transition: all .3s;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 10;
+      &:before{
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: 540px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent #22374f transparent;
+      }
+    }
+    @include breakpoint(lg){
+      top: calc(100% + 20px);
+    }
+    &__item{
+      @include breakpoint(sm){
+        width: 33.333%;
+      }
+      ul{
+        list-style: disc;
+        padding:7px 0 7px 30px;
+        li{
+          a{
+            font-size: 14px;
+            color: #fff;
+            display: block;
+            padding: 7px 10px;
+          }
+        }
+      }
+    }
+    &__title{
+      background-color: #22374f;
+      padding: 15px;
+      h5{
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

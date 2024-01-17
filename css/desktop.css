@@ -1,6 +1,9 @@
 .medium {
     font-weight: 500;
 }
+.colorYellow {
+    color: #FBB040;
+}
 .text20 {
     font-size: 20px;
 }
@@ -19,9 +22,16 @@ h3 {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
+.ml5 {
+    margin-left: 5px;
+}
 .mr5 {
     margin-right: 5px;
 }
+.colorGreen {
+    color: #81BE33;
+}
+
 /*=========================================================================================*/
 @media (min-width: 1200px){
     .footer-content__col {
@@ -30,9 +40,32 @@ h3 {
     .footer-content__col:first-child{
         width: 25%;
     }
-
+    .flightPayment__bg {
+         padding: 60px 30px 130px;
+     }
+    .flightPayment__title {
+        font-size: 30px;
+    }
+    .flightPayment__text {
+        padding: 0 30px 30px;
+    }
+    .flightPayment__list {
+        margin-top: 2.5vw;
+    }
+    .flightPayment__list li {
+        padding: 0 30px;
+    }
 }
 @media (min-width: 768px){
+    .box-title p{
+        font-size: 20px;
+    }
+    .form-checkout,.box-title,.fly-review__itinerary,.fly-review__price,.fly-review__baggage,.fly-review__adult{
+        border-radius: 8px 8px 0 0;
+    }
+    .fly-checkout__btn .btn{
+        font-size: 16px;
+    }
     .footer-content__col {
         padding: 15px 10px;
     }
@@ -46,24 +79,142 @@ h3 {
     .fly-header .navbar-nav .nav-item.active .nav-link{
         border-radius: 4px;
     }
+    .booking-box__btn{
+        border-radius: 8px 8px 0 0;
+    }
+    .flightPayment__list {
+        display: flex;
+        justify-content: center;
+    }
 }
 /*============================================================================================*/
 
 
 
 
-
+.flightPayment__bg.failed {
+    background-color: #FFE7DC;
+}
+.flightPayment__reason__collapse {
+    display: none;
+}
+.flightPayment__reason__cont {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px 0;
+}
+.formBox__body {
+    background: #FFF;
+    box-shadow: 0 0 8px rgba(0,0,0,.15);
+    border-radius: 0 0 4px 4px;
+    padding: 15px;
+}
+.fly-review__tou{
+    margin-bottom: 30px;
+}
+.formBox__term::-webkit-scrollbar {
+    width: 5px;
+}
+.formBox__term::-webkit-scrollbar-thumb {
+    background: #2589b5;
+    border-radius: 16px;
+}
+.formBox__term p.title {
+    font-size: 16px;
+    font-weight: 500;
+}
+.formBox__term p {
+    margin-bottom: 15px;
+    color: rgba(0,0,0,.85);
+}
+.formBox__term {
+    max-height: 300px;
+    margin-right: -15px;
+    padding-right: 15px;
+}
+.formBox__term, .suggestion {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.flightPayment__link p, .flightPayment__list li p {
+    color: rgba(0,0,0,.55);
+}
+.flightPayment__list {
+    margin-top: 30px;
+}
+button {
+    border: none;
+    background: 0 0;
+    padding: 0;
+}
+.flightPayment__box {
+    background: #FFF;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.flightPayment__text {
+    text-align: center;
+    padding: 0 15px 30px;
+}
+.viewMore {
+    font-size: 14px;
+}
+.viewMore, .viewMore:hover {
+    color: #318FDB;
+}
+.faq__item, .fareRules table, .flightPayment__box, .homeServices__card, .homeServices__item, .newAndUpdate__item {
+    box-shadow: 0 0 30px rgba(0,0,0,.15);
+}
+.flightPayment__icon {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: -127px;
+}
+.flightPayment__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.flightPayment__price {
+    margin: 15px 0;
+}
+.flightPayment__main {
+    text-align: center;
+}
 .sidebar{
     display: flex;
     width: 100%;
     justify-content: center;
     padding: 0;
 }
+.fly-list__btn .btn,.fly-checkout__btn .btn{
+    display: inline;
+}
+.flightPayment__bg.success {
+    background-color: #F5FDDA;
+}
+
+.flightPayment__bg {
+    padding: 60px 15px 130px;
+}
+.booking-info__btn a{
+    font-size: 22px;
+    border-radius: 0 0 8px 8px;
+}
+.booking-box__dropdown{
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+}
 .offers-item{
     border-radius: 8px;
 }
 .deal-item__img img{
     border-radius: 8px 8px 0 0;
+}
+.flightPayment {
+    margin: 50px 0;
 }
 .home-search__btn .btn{
     display: flex;
@@ -107,7 +258,7 @@ h3 {
     padding: 0 53px;
 }
 .fareRules table .green1 {
-    background: #0F5A5E;
+    background: #2589b5;
 }
 .formBox__frequent>button span, .formBox__frequent>button svg, .formBox__tip span, .formBox__tip svg, .head1 td:first-child {
     vertical-align: middle;
@@ -136,13 +287,13 @@ h3 {
     padding: 5px 0;
 }
 .fareRules table .green3 {
-    background: #0A4750;
+    background: #2589b5;
 }
 .fareRules table .green4 {
-    background: #073643;
+    background: #2589b5;
 }
 .fareRules table .green5 {
-    background: #042736;
+    background: #2589b5;
 }
 .fareRules table tbody td {
     padding: 15px;
@@ -158,7 +309,7 @@ h3 {
     width: 20%;
 }
 .fareRules table .green2 {
-    background: #3A9E9B;
+    background: #2589b5;
 }
 .fareRules table thead td {
     border: 1px solid #fff;

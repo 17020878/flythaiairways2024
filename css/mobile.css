@@ -1,0 +1,13 @@
+@media (max-width: 767px){
+    .fly-setting__left {
+        display: block;
+    }
+    .fly-setting__left .sidebar{
+        display: flex;
+        justify-content: left;
+        overflow-x: auto;
+    }
+    .sidebar__link {
+        white-space: nowrap;
+    }
+}

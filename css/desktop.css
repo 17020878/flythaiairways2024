@@ -79,12 +79,26 @@ h3 {
     .fly-header .navbar-nav .nav-item.active .nav-link{
         border-radius: 4px;
     }
-    .booking-box__btn{
-        border-radius: 8px 8px 0 0;
-    }
     .flightPayment__list {
         display: flex;
         justify-content: center;
+    }
+    .fly-header .navbar-sub{
+        border-radius: 8px;
+        left: 0;
+        width: 12vw;
+    }
+    .fly-header .navbar-sub:before{
+        border-color: transparent transparent #1087b4;
+    }
+    .fly-header .navbar-sub__item{
+        width: 100%;
+    }
+    .fly-header .navbar-sub:before{
+        left: 70px
+    }
+    .fly-header .navbar-nav .nav-item .nav-link:hover{
+        border-radius: 4px;
     }
 }
 /*============================================================================================*/
@@ -97,6 +111,9 @@ h3 {
 }
 .flightPayment__reason__collapse {
     display: none;
+}
+.booking-box__btn{
+    border-radius: 8px 8px 0 0;
 }
 .flightPayment__reason__cont {
     text-align: left;

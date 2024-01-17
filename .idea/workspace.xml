@@ -6,9 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="30376bf2-f9f9-4b92-8838-5fd16d362ae1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baggageInfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingChange.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookingChange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookingStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactUs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/desktop.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/desktop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fareRules.html" beforeDir="false" afterPath="$PROJECT_DIR$/fareRules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favDes.html" beforeDir="false" afterPath="$PROJECT_DIR$/favDes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fleet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightPayment.html" beforeDir="false" afterPath="$PROJECT_DIR$/flightPayment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightRoutes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/fly-checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/fly-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fly-review.html" beforeDir="false" afterPath="$PROJECT_DIR$/fly-review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newAndUpdate.html" beforeDir="false" afterPath="$PROJECT_DIR$/newAndUpdate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paymentGuide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refundRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/refundRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/termsOfUse.html" beforeDir="false" afterPath="$PROJECT_DIR$/termsOfUse.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +105,23 @@
       <workItem from="1705156691103" duration="4496000" />
       <workItem from="1705239650287" duration="4787000" />
       <workItem from="1705417480184" duration="6150000" />
+      <workItem from="1705461521871" duration="692000" />
+      <workItem from="1705503008889" duration="4282000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

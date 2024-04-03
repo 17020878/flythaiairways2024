@@ -57,6 +57,9 @@ h3 {
     }
 }
 @media (min-width: 768px){
+    .stopBox__dot {
+        font-size: 8px;
+    }
     .box-title p{
         font-size: 20px;
     }
@@ -129,6 +132,40 @@ h3 {
 }
 .fly-review__tou{
     margin-bottom: 30px;
+}
+.stopBox__line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.stopBox__line:before {
+    border-bottom: 1px dashed rgba(0, 0, 0, .15);
+    width: 92%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+}
+.stopBox__dot {
+    font-size: 8px;
+}
+.stopBox__plane svg path {
+    fill: #8c8c8c;
+    fill-opacity: 1;
+}
+.trip-box__icon i {
+    color: #bebebe;
+}
+.trip-box__icon .colorBlueDot i{
+    color: #17c0da;
+}
+.stopBox__dot, .stopBox__plane {
+    position: relative;
+}
+.stopBox__plane svg {
+    display: block;
 }
 .formBox__term::-webkit-scrollbar {
     width: 5px;
